@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>The Materialize Colors Example</title>
+   <meta name="viewport" content="width = device-width, initial-scale = 1">
+   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="materialize/css/materialize.min.css">
+   <link rel="stylesheet" href="materialize/css/materialize.css">
+   <script src="materialize/js/materialize.min.js"></script>
+   <script src="materialize/js/materialize.js"></script>
+   <title>Practice Materialize</title>
+</head>
+<script>
+   $(Document).ready(function () {
+      $(".sidenav").sidenav();
+   });
+</script>
+
+<body>
+   <nav class="light-blue lighten-1" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+         <ul class="right hide-on-med-and-down">
+            <li><a href="#">Navbar Link</a></li>
+         </ul>
+         <ul id="nav-mobile" class="sidenav">
+            <li><a href="#">Navbar Link</a></li>
+         </ul>
+         <a href="#" data-target="demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+   </nav>
+   <ul class="sidenav" id="demo">
+      <li><a href="">Navbar Link</a>
+      </li>
+   </ul>
+   <div class="container">
+      <h3 class=" orange-text center text-orange">Starter Template</h3>
+      <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, perspiciatis.</p>
+      <div class="row center">
+         <button type="button" class="btn orange center">Get Start</button>
+      </div>
+      <div class="row">
+         <div class="col s12 l4">
+            <i class="material-icons center large blue-text">flash_on</i>
+            <h4>Speed develop</h4>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, perspiciatis.</p>
+         </div>
+         <div class="col s12 l4">
+            <i class="material-icons center large blue-text">group</i>
+            <h4>User Experience</h4>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, perspiciatis.</p>
+         </div>
+         <div class="col s12 l4">
+            <i class="material-icons center large blue-text">settings</i>
+            <h4>Easy to work with</h4>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, perspiciatis.</p>
+         </div>
+         <br>
+         <br><br>
+      </div>
+   </div>
+   <div class="footer-copyright orange">
+      <div class="container">
+         <div class="row">
+            <div class="col l3 s12">
+               <h5 class="white-text">Company Bio</h5>
+               <p class="grey-text text-lighten-4">
+                  We are a team of college students working on this project like it's our full time job. Any amount
+                  would help support and continue development on this project and is greatly appreciated.
+               </p>
+            </div>
+            <div class="col l3 offset-l2 s12">
+               <h5 class="white-text">Settings</h5>
+               <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.
+               </p>
+
+            </div>
+            <div class="col l3 s12">
+               <h5 class="white-text">Contact Link</h5>
+               <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+               </ul>
+            </div>
+         </div>
+         © 2014 Copyright Text
+         <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+</body>
+
+</html>
